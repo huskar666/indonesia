@@ -52,62 +52,88 @@ margin: 0;
                 padding-top: 37px;
             }
         }
-           
-            }
-            & .explore__container{
-                max-width: 1280px;
+        .explore__container{
+            max-width: 1280px;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            padding-top: 39px;
+            padding-bottom: 11.75rem;
+
+            & .explore__container--content--first{
                 display: flex;
-                justify-content: space-between;
+                flex-direction: column;
+                width: 340px;
 
-                & .explore__container--content--first{
-                    display: flex;
-                    flex-direction: column;
-                    width: 340px;
+                & .explore__container--content--title{
+                    font-family: DM Sans;
+                    font-size: 42.14px;
+                    font-weight: 700;
+                    line-height: 49.16px;
+                    letter-spacing: 0.38626033067703247px;
+                    text-align: center;
+                    color: #DD2242;
+                }
+                 .explore__container--content--text{
+                    font-family: DM Sans;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    letter-spacing: 0.5px;
+                    text-align: center;
+                    color: #7684AA;
+                }
+            }
+            & .explore__container--content--second{
+                display: flex;
+                flex-direction: column;
+                width: 377px;
 
-                    & .explore__container--content--title{
-                        font-family: DM Sans;
-                        font-size: 42.14px;
-                        font-weight: 700;
-                        line-height: 49.16px;
-                        letter-spacing: 0.38626033067703247px;
-                        text-align: center;
-                        color: #DD2242;
-                    }
-                     .explore__container--content--text{
-                        font-family: DM Sans;
-                        font-size: 18px;
-                        font-weight: 400;
-                        line-height: 28px;
-                        letter-spacing: 0.5px;
-                        text-align: center;
-                        color: #7684AA;
-                    }
+                & .explore__container--content--title{
+                    font-family: DM Sans;
+                    font-size: 42.14px;
+                    font-weight: 700;
+                    line-height: 49.16px;
+                    letter-spacing: 0.38626033067703247px;
+                    text-align: center;
+                    color: #DD2242;
                 }
-                & .explore__container--content--second{
-                    display: flex;
-                    flex-direction: column;
-                    width: 377px;
-    
-                    & .explore__container--content--title{
-                        font-family: DM Sans;
-                        font-size: 42.14px;
-                        font-weight: 700;
-                        line-height: 49.16px;
-                        letter-spacing: 0.38626033067703247px;
-                        text-align: center;
-                        color: #DD2242;
-                    }
-                    & .explore__container--content--text{
-                        font-family: DM Sans;
-                        font-size: 18px;
-                        font-weight: 400;
-                        line-height: 28px;
-                        letter-spacing: 0.5px;
-                        text-align: center;
-                        color: #7684AA;
-                    }
+                & .explore__container--content--text{
+                    font-family: DM Sans;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    letter-spacing: 0.5px;
+                    text-align: center;
+                    color: #7684AA;
                 }
-        }
+            }
+            & .explore__container--content--third{
+                display: flex;
+                flex-direction: column;
+                width: 340px;
+
+                & .explore__container--content--title{
+                    font-family: DM Sans;
+                    font-size: 42.14px;
+                    font-weight: 700;
+                    line-height: 49.16px;
+                    letter-spacing: 0.38626033067703247px;
+                    text-align: center;
+                    color: #DD2242;
+                }
+                & .explore__container--content--text{
+                    font-family: DM Sans;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    letter-spacing: 0.5px;
+                    text-align: center;
+                    color: #7684AA;
+                }
+            }
+    }
+} 
     }
 
 
