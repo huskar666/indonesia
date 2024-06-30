@@ -1,0 +1,113 @@
+@import 'adaptive';
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+padding: 0;
+margin: 0;
+}
+
+.explore{
+    width: 100%;
+    background-image: url('../img/background-photo.png');
+    
+    & .explore__title{
+        font-family: DM Sans;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 75px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 127px;
+    }
+    & .explore__photos{
+        margin: 0 auto;
+        max-width: 1280px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 45px;
+        padding-bottom: 58.313rem;
+    }
+    & .explore__num{
+        background-color: rgba(2, 12, 33, 0.9);
+        & .explore__num--header{
+            padding-top: 12.5rem;
+
+            & .explore__num--header--title{
+                font-family: DM Sans;
+                font-size: 60px;
+                font-weight: 700;
+                line-height: 90px;
+                text-align: center;
+                color: #FFFFFF
+            }
+            & .explore__num--header--text{
+                font-family: DM Sans;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 28px;
+                letter-spacing: 0.5px;
+                text-align: center;
+                width: 484px;
+                color: #FFFFFF;
+                margin: 0 auto;
+                padding-top: 37px;
+            }
+        }
+           
+            }
+            & .explore__container{
+                max-width: 1280px;
+                display: flex;
+                justify-content: space-between;
+
+                & .explore__container--content--first{
+                    display: flex;
+                    flex-direction: column;
+                    width: 340px;
+
+                    & .explore__container--content--title{
+                        font-family: DM Sans;
+                        font-size: 42.14px;
+                        font-weight: 700;
+                        line-height: 49.16px;
+                        letter-spacing: 0.38626033067703247px;
+                        text-align: center;
+                        color: #DD2242;
+                    }
+                     .explore__container--content--text{
+                        font-family: DM Sans;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        letter-spacing: 0.5px;
+                        text-align: center;
+                        color: #7684AA;
+                    }
+                }
+                & .explore__container--content--second{
+                    display: flex;
+                    flex-direction: column;
+                    width: 377px;
+    
+                    & .explore__container--content--title{
+                        font-family: DM Sans;
+                        font-size: 42.14px;
+                        font-weight: 700;
+                        line-height: 49.16px;
+                        letter-spacing: 0.38626033067703247px;
+                        text-align: center;
+                        color: #DD2242;
+                    }
+                    & .explore__container--content--text{
+                        font-family: DM Sans;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        letter-spacing: 0.5px;
+                        text-align: center;
+                        color: #7684AA;
+                    }
+                }
+        }
+    }
+
+
