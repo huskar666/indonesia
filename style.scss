@@ -17,7 +17,18 @@ margin: 0;
         text-align: center;
         margin: 0 auto;
         padding-top: 127px;
+        animation: 1s show1 ;
     }
+    @keyframes show1 {
+        0% {
+            opacity: 0;
+            transform: translateX(-3000px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        }
     & .explore__photos{
         margin: 0 auto;
         max-width: 1280px;
@@ -25,7 +36,27 @@ margin: 0;
         justify-content: space-between;
         padding-top: 45px;
         padding-bottom: 58.313rem;
+        animation: 1s show2;
+         
+        & .explore__photos--photo{
+            transition: transform 0.3s ease-in-out;
+        }
+        & .explore__photos--photo:hover{
+            transform: scale(1.1);
+        }
+        
     }
+    @keyframes show2 {
+        0% {
+            opacity: 0;
+            transform: translateX(3000px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    
     & .explore__num{
         background-color: rgba(2, 12, 33, 0.9);
         & .explore__num--header{
@@ -37,7 +68,8 @@ margin: 0;
                 font-weight: 700;
                 line-height: 90px;
                 text-align: center;
-                color: #FFFFFF
+                animation: 1s show1 ;
+                color: white;
             }
             & .explore__num--header--text{
                 font-family: DM Sans;
@@ -50,8 +82,10 @@ margin: 0;
                 color: #FFFFFF;
                 margin: 0 auto;
                 padding-top: 37px;
+                animation: 1s show2;
             }
         }
+        
         .explore__container{
             max-width: 1280px;
             display: flex;
@@ -59,7 +93,7 @@ margin: 0;
             margin: 0 auto;
             padding-top: 39px;
             padding-bottom: 11.75rem;
-
+            animation: 1s show3;
             & .explore__container--content--first{
                 display: flex;
                 flex-direction: column;
@@ -133,6 +167,16 @@ margin: 0;
                 }
             }
     }
+    @keyframes show3 {
+        0% {
+            opacity: 0;
+            transform: translateY(3000px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        }
 } 
     }
 
