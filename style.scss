@@ -7,8 +7,8 @@ margin: 0;
 
 .explore{
     width: 100%;
-    background-image: url('../img/background-photo.png');
-    
+    background: url('../img/background-photo.png');
+
     & .explore__title{
         font-family: DM Sans;
         font-size: 50px;
@@ -31,17 +31,34 @@ margin: 0;
         }
     & .explore__photos{
         margin: 0 auto;
-        max-width: 1280px;
+        max-width: 1433px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         padding-top: 45px;
         padding-bottom: 58.313rem;
         animation: 1s show2;
+        & .explore__photos--strelka{
+            height: 24px;
+            
+        }
          
-        & .explore__photos--photo{
+        & .explore__photos--photo1{
             transition: transform 0.3s ease-in-out;
         }
-        & .explore__photos--photo:hover{
+        & .explore__photos--photo1:hover{
+            transform: scale(1.1);
+        }
+        & .explore__photos--photo2{
+            transition: transform 0.3s ease-in-out;
+        }
+        & .explore__photos--photo2:hover{
+            transform: scale(1.1);
+        }
+        & .explore__photos--photo3{
+            transition: transform 0.3s ease-in-out;
+        }
+        & .explore__photos--photo3:hover{
             transform: scale(1.1);
         }
         
